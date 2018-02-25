@@ -19,3 +19,4 @@ npm run build
 npm run server
 ```
 # 端口为localhost:8088
+# 需要输入http://localhost:8088/#/login这个地址才能看到login界面.
