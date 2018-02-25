@@ -1,30 +1,19 @@
-# my-project
+# 克隆或下载压缩包解压.
 
-> A Vue.js project
+[本项目进度为第六章](https://segmentfault.com/a/1190000012084183)
 
-## Build Setup
+请先安装好mongoDB
 
-``` bash
-# install dependencies
-npm install
+```bash
+# 在根目录安装依赖
+npm install / cnpm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 进入node_server文件夹安装node依赖
+npm install / cnpm install
 
-# build for production with minification
+# 回到根目录打包app
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+# 运行测试
+npm run server
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
